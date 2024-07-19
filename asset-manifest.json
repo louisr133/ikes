@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ikes/static/css/main.40a05350.css",
-    "main.js": "/ikes/static/js/main.30a9068a.js",
+    "main.css": "/ikes/static/css/main.372051bb.css",
+    "main.js": "/ikes/static/js/main.5cbd314a.js",
     "static/js/453.42ffb5d8.chunk.js": "/ikes/static/js/453.42ffb5d8.chunk.js",
     "static/media/booze.jpg": "/ikes/static/media/booze.165bac4b4d094ef8d034.jpg",
     "static/media/live-music.jpg": "/ikes/static/media/live-music.5773f273c5fd18cc943a.jpg",
     "static/media/comfy-img.jpg": "/ikes/static/media/comfy-img.c7f5dfc96c89712ccfd1.jpg",
     "static/media/logo-linear.jpg": "/ikes/static/media/logo-linear.83e6f7c12e63fd33fdeb.jpg",
     "index.html": "/ikes/index.html",
-    "main.40a05350.css.map": "/ikes/static/css/main.40a05350.css.map",
-    "main.30a9068a.js.map": "/ikes/static/js/main.30a9068a.js.map",
+    "main.372051bb.css.map": "/ikes/static/css/main.372051bb.css.map",
+    "main.5cbd314a.js.map": "/ikes/static/js/main.5cbd314a.js.map",
     "453.42ffb5d8.chunk.js.map": "/ikes/static/js/453.42ffb5d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a05350.css",
-    "static/js/main.30a9068a.js"
+    "static/css/main.372051bb.css",
+    "static/js/main.5cbd314a.js"
   ]
 }
