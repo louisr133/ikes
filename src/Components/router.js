@@ -1,10 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import Layout from "./Layout";
 import LandingPage from "./LandingPage";
 import Temp from "./Temp";
 import ErrorPage from "./ErrorPage";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
       path: "/",
       element: <Layout />,
