@@ -10,10 +10,10 @@ const router = createBrowserRouter([
       element: <Layout />,
       errorElement: <ErrorPage />,
       children: [
-        { path:"ikes/", element:<LandingPage /> },
-        { path:"ikes/menu", element: <Temp />},
-        { path:"ikes/gallery", element: <Temp />},
-        { path:"ikes/events", element: <Temp />}
+        { path:"", element:<LandingPage /> },
+        { path:"menu", element: <Temp />},
+        { path:"gallery", element: <Temp />},
+        { path:"events", element: <Temp />}
       ]
     },
   ]);

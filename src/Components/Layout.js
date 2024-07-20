@@ -13,10 +13,10 @@ const Layout = () => {
                     <img id='logo-linear' src={logo_linear} />
                 </div>
                 <nav className="nav">
-                    <Link to="ikes/">HOME</Link>
-                    <Link to="ikes/menu">MENU</Link>
-                    <Link to="ikes/events">EVENTS</Link>
-                    <Link to="ikes/gallery">GALLERY</Link>
+                    <Link to="/">HOME</Link>
+                    <Link to="/menu">MENU</Link>
+                    <Link to="/events">EVENTS</Link>
+                    <Link to="/gallery">GALLERY</Link>
                     <a href='https://www.facebook.com/profile.php?id=100075934792972' target="_blank">
                         <FontAwesomeIcon icon={faFacebook} size="lg" />
                     </a>
