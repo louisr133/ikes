@@ -1,26 +1,21 @@
 import React from 'react';
 import "../Styles/Team.css";
-import rachel from "../photos/rachel_portrait.jpeg"
+import rachelle from "../photos/portraits/rachelle.jpeg"
+import rachel from "../photos/portraits/rachel.jpg"
+import erica from "../photos/portraits/erica.jpg"
+import matt from "../photos/portraits/matt.jpg"
+import lexie from "../photos/portraits/lexie.jpg"
+import amy from "../photos/portraits/amy.jpg"
+import jason from "../photos/portraits/jason.jpg"
 import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const teamMembers = [
     {
         name: 'Rachelle',
-        title: 'Founder',
-        description: 'Matt Mullenweg is an American online social media entrepreneur, web developer and musician living in San Francisco, California. He is best known for developing the free and open source web software WordPress, now managed by The WordPress Foundation.',
-        image: rachel,
-        socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
-        },
-    },
-    {
-        name: 'Jason',
-        title: 'Founder',
-        description: 'Mark Zuckerberg is an American computer programmer and internet entrepreneur. He is best known as one of five co-founders of the social networking website Facebook. As of April 2013, Zuckerberg is the chairman and chief executive of Facebook, Inc. and in 2013 his personal wealth was estimated to be US $16.8 billion.',
-        image: rachel,
+        title: 'Bartender',
+        description: '\"If you see me, you know it\'s going to be fun time!\"',
+        image: rachelle,
         socials: {
             twitter: '#',
             email: '#',
@@ -29,8 +24,8 @@ const teamMembers = [
     },
     {
         name: 'Rachel',
-        title: 'Senior Vice President of Design',
-        description: 'Jonathan Ive, is a British designer and the SVP of Design at Apple Inc. He has the overall responsibility for Industrial Design and also provides leadership and direction for Human Interface (HI) software teams across the company. He is the lead designer of many of Apple\'s products, including the MacBook Pro, iMac, MacBook Air, iPod, iPod Touch, iPhone, iPad, iPad Mini and iOS 7.',
+        title: 'Manager',
+        description: '\"Not only can I manage a bar, I\'m a fantastic realtor.\"',
         image: rachel,
         socials: {
             twitter: '#',
@@ -40,9 +35,53 @@ const teamMembers = [
     },
     {
         name: 'Erica',
-        title: 'President & Commander-in-chief',
-        description: 'Barack Obama is the 44th and current President of the United States, and the first African American to hold the office. Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he was president of the Harvard Law Review. He was a community organizer in Chicago before earning his law degree. He worked as a civil rights attorney in Chicago and taught constitutional law at the University of Chicago Law School from 1992 to 2004.',
-        image: rachel,
+        title: 'Bartender',
+        description: '\"Did someone say Wheeler Walker JR? I\'m in!\"',
+        image: erica,
+        socials: {
+            twitter: '#',
+            email: '#',
+            linkedin: '#',
+        },
+    },
+    {
+        name: 'Matt',
+        title: 'Bartender',
+        description: '\"Who\'s in for a game of darts?\"',
+        image: matt,
+        socials: {
+            twitter: '#',
+            email: '#',
+            linkedin: '#',
+        },
+    },
+    {
+        name: 'Amy',
+        title: 'Bartender',
+        description: 'Cordinator of Austin\'s Forever 10.',
+        image: amy,
+        socials: {
+            twitter: '#',
+            email: '#',
+            linkedin: '#',
+        },
+    },
+    {
+        name: 'Lexie',
+        title: 'Bartender',
+        description: '\"Who needs sleds when ya have an air mattress!\"',
+        image: lexie,
+        socials: {
+            twitter: '#',
+            email: '#',
+            linkedin: '#',
+        },
+    },
+    {
+        name: 'Jason',
+        title: 'Owner',
+        description: '\"The pup is actually in charge.\"',
+        image: jason,
         socials: {
             twitter: '#',
             email: '#',

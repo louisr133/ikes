@@ -5,6 +5,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import logo_linear from "../photos/logo-linear.jpg";
 import "../Styles/Layout.css";
+import ScrollToTop from "./ScrollToTop";
 
 const Layout = () => {
     const [isNavVisible, setIsNavVisible] = useState(false);
@@ -28,6 +29,7 @@ const Layout = () => {
 
     return (
         <>
+            <ScrollToTop />
             <header className="header">
                 <div className="logo">
                     <img id="logo-linear" src={logo_linear} alt="Logo" />
