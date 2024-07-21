@@ -37,10 +37,10 @@ const LandingPage = () => {
                     <main className="main-content">
                         <div className="enclosed-content">
                             <section className="hero">
-                                <img className="friends_banner" src={friendslogo} />
+                                <img className="friends_banner" src={friendslogo} alt="Your Friends Are Already Here" />
                                 <div className='friends-box'>
                                     <h2>CHECKOUT OUR WEEKLY SPECIALS!</h2>
-                                    <button><Link to="/menu">MENU</Link></button>
+                                    <Link className='button-89' to="/menu">MENU</Link>
                                 </div>
                             </section>
                             <section className="features">

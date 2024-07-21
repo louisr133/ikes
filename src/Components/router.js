@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import LandingPage from "./LandingPage";
 import Temp from "./Temp";
 import ErrorPage from "./ErrorPage";
+import Team from "./Team";
 
 const router = createHashRouter([
     {
@@ -13,7 +14,8 @@ const router = createHashRouter([
         { path:"", element:<LandingPage /> },
         { path:"menu", element: <Temp />},
         { path:"gallery", element: <Temp />},
-        { path:"events", element: <Temp />}
+        { path:"events", element: <Temp />},
+        { path:"about", element: <Team />}
       ]
     },
   ]);

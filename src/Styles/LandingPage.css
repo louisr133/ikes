@@ -36,13 +36,15 @@ body {
 
 #loading-logo {
     animation: scaleLogo 2s 1s forwards, fadeOut 1s 2s forwards;
-    width: 350px; /* Set an initial width for the logo */
+    width: 350px;
+    /* Set an initial width for the logo */
 }
 
 @keyframes scaleLogo {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(35);
     }
@@ -52,6 +54,7 @@ body {
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }
@@ -71,6 +74,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -80,7 +84,7 @@ body {
 .pushdown {
     position: relative;
     top: 87px;
-  }
+}
 
 .enclosed-content {
     /* background-color: rgba(0, 0, 0, 0.8); */
@@ -101,15 +105,20 @@ body {
 .friends_banner {
     width: 100%;
 }
+
 .friends-box {
     align-content: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 1);
     position: relative;
     height: 80px;
-    padding-top: 15px;
+    padding: 25px 0;
     height: 100%;
     /* border: 1px solid white; */
+}
+
+.friends-box h2 {
+    padding-bottom: .7rem;
 }
 
 .hero h1 {
@@ -125,6 +134,7 @@ body {
     margin: 35px;
 
 }
+
 .features {
     display: flex;
     flex-direction: column;
@@ -138,7 +148,8 @@ body {
     padding: 16px;
     border: 1px solid white;
     margin: 0px 35px 35px 35px;
-    position: relative; /* Add this line */
+    position: relative;
+    /* Add this line */
     max-height: 600px;
 
 }
@@ -163,10 +174,12 @@ body {
     align-self: center;
     margin: 15px;
 }
+
 .carousel-container h1 {
     text-align: center;
-    
+
 }
+
 .carousel-container {
     border: 1px solid white;
     margin: 0 35px 35px 35px;
@@ -210,15 +223,18 @@ body {
     }
 
     #loading-logo {
-        width: 350px; /* Smaller initial width for the logo on tablet and mobile */
+        width: 350px;
+        /* Smaller initial width for the logo on tablet and mobile */
     }
 
     @keyframes scaleLogo {
         from {
             transform: scale(1);
         }
+
         to {
-            transform: scale(30); /* Adjusted scaling for tablet and mobile */
+            transform: scale(30);
+            /* Adjusted scaling for tablet and mobile */
         }
     }
 }
@@ -246,20 +262,62 @@ body {
         padding: 0px 10px 10px 10px;
     }
 
-    .landing-image{
+    .landing-image {
         width: 80%;
     }
 
     #loading-logo {
-        width: 350px; /* Smaller initial width for the logo on mobile */
+        width: 350px;
+        /* Smaller initial width for the logo on mobile */
     }
 
     @keyframes scaleLogo {
         from {
             transform: scale(1);
         }
+
         to {
-            transform: scale(17); /* Adjusted scaling for mobile */
+            transform: scale(17);
+            /* Adjusted scaling for mobile */
         }
     }
+}
+
+.button-89 {
+    text-decoration: none;
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #f6f7fb;
+
+    padding: calc(.5em + var(--s)) calc(1.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 1.3rem;
+    position: relative;
+    top: 0.25rem;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
 }
