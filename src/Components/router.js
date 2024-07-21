@@ -2,6 +2,7 @@ import { createHashRouter } from "react-router-dom";
 import Layout from "./Layout";
 import LandingPage from "./LandingPage";
 import Temp from "./Temp";
+import Specials from "./Specials"
 import ErrorPage from "./ErrorPage";
 import Team from "./Team";
 
@@ -12,7 +13,7 @@ const router = createHashRouter([
       errorElement: <ErrorPage />,
       children: [
         { path:"", element:<LandingPage /> },
-        { path:"menu", element: <Temp />},
+        { path:"specials", element: <Specials />},
         { path:"gallery", element: <Temp />},
         { path:"events", element: <Temp />},
         { path:"about", element: <Team />}

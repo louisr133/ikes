@@ -34,7 +34,7 @@ const Layout = () => {
                 </div>
                 <nav className={`nav ${isNavVisible ? "nav-visible" : ""}`}>
                     <Link to="/" onClick={handleNavClick}>HOME</Link>
-                    <Link to="/menu" onClick={handleNavClick}>MENU</Link>
+                    <Link to="/specials" onClick={handleNavClick}>SPECIALS</Link>
                     <Link to="/events" onClick={handleNavClick}>EVENTS</Link>
                     <Link to="/gallery" onClick={handleNavClick}>GALLERY</Link>
                     <Link to="/about" onClick={handleNavClick}>ABOUT</Link>

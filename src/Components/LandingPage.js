@@ -39,8 +39,8 @@ const LandingPage = () => {
                             <section className="hero">
                                 <img className="friends_banner" src={friendslogo} alt="Your Friends Are Already Here" />
                                 <div className='friends-box'>
-                                    <h2>CHECKOUT OUR WEEKLY SPECIALS!</h2>
-                                    <Link className='button-89' to="/menu">MENU</Link>
+                                    <h2>CHECKOUT OUR WEEKLY SPECIALS</h2>
+                                    <Link className='button-89' to="/specials">HERE</Link>
                                 </div>
                             </section>
                             <section className="features">
