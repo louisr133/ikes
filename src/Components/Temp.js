@@ -1,6 +1,6 @@
 const Temp = () => {
     return(
-        <div>
+        <div className="pushdown-other">
             Test
         </div>
     );

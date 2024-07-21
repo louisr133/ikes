@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import logo_linear from "../photos/logo-linear.jpg";
 import comfy_img from '../photos/comfy-img.jpg';
 import livemusic from '../photos/live-music.jpg';
+import friendslogo from "../photos/yfaah.jpeg"
+import { Link } from 'react-router-dom'
 import '../Styles/LandingPage.css';
 
 const LandingPage = () => {
@@ -22,41 +24,37 @@ const LandingPage = () => {
                     <img id="loading-logo" src={logo_linear} alt="Logo" />
                 </div>
             ) : (
-                <>
+                <div className='pushdown'>
                     <main className="main-content">
                         <div className="enclosed-content">
                             <section className="hero">
-                                <h1>Your Friends Are Already Here!</h1>
+                                <img className="friends_banner" src={friendslogo} />
+                                <div className='friends-box'>
+                                    <h2>CHECKOUT OUR WEEKLY SPECIALS!</h2>
+                                    <button><Link to="/menu">MENU</Link></button>
+                                </div>
                             </section>
                             <section className="features">
+                                    <div className='discover'>
+                                        <h2>DISCOVER IKE'S PUB!</h2>
+                                    </div>
                                 <div className="feature">
+                                    <img className="landing-image" src={livemusic} alt="Cheap Drinks" />
                                     <div className="feature-text">
-                                        <h2>Cheap Drinks</h2>
-                                        <p>$2 Domestic Beers</p>
+                                        <h2>Discover Ike's Pub</h2>
+                                        <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. DUIS VEL NULLA SED PURUS MAXIMUS BIBENDUM. CLASS APTENT TACITI SOCIOSQU AD LITORA TORQUENT PER CONUBIA NOSTRA, PER INCEPTOS HIMENAEOS. CURABITUR GRAVIDA, ENIM QUIS PORTA MATTIS, AUGUE ARCU TINCIDUNT AUGUE, VEL TEMPOR ENIM PURUS ID ELIT. ALIQUAM EU FACILISIS ORCI, VITAE SAGITTIS LIBERO.</p>
                                     </div>
-                                    <img className="landing-image" src='https://i5.walmartimages.com/asr/8e207c86-7884-4bb9-9181-70ca0928e7ad.a67bd9ad17b4329905b247e14f739690.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF' alt="Cheap Drinks" />
-                                </div>
-                                <div className="feature row-reverse">
-                                    <div className="feature-text">
-                                        <h2>Live Events</h2>
-                                        <p>Music and entertainment weekly</p>
-                                    </div>
-                                    <img className="landing-image" src={livemusic} alt="Live Events" />
-                                </div>
-                                <div className="feature">
-                                    <div className="feature-text">
-                                        <h2>Cozy Atmosphere</h2>
-                                        <p>Perfect for any occasion</p>
-                                    </div>
-                                    <img className="landing-image" src={comfy_img} alt="Cozy Atmosphere" />
                                 </div>
                             </section>
+                            <div className='courasel'>
+
+                            </div>
                         </div>
                     </main>
                     <footer className="footer">
                         <p>&copy; 2024 RomanMathDev. All rights reserved.</p>
                     </footer>
-                </>
+                </div>
             )}
         </div>
     );
