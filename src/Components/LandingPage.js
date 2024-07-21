@@ -1,13 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import logo_linear from "../photos/logo-linear.jpg";
-import comfy_img from '../photos/comfy-img.jpg';
 import livemusic from '../photos/live-music.jpg';
 import friendslogo from "../photos/yfaah.jpeg"
 import { Link } from 'react-router-dom'
+import Carousel from './Carousel';
+import photo1 from "../photos/IMG_1519.jpg"
+import photo2 from "../photos/IMG_1775.jpeg"
+import photo3 from "../photos/IMG_1781.jpeg"
 import '../Styles/LandingPage.css';
 
 const LandingPage = () => {
     const [isLoading, setIsLoading] = useState(true);
+
+    const images = [
+        photo1,
+        photo2,
+        photo3
+    ];
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -46,8 +55,9 @@ const LandingPage = () => {
                                     </div>
                                 </div>
                             </section>
-                            <div className='courasel'>
-
+                            <div className='carousel-container'>
+                                <h1>JOIN THE FUN!</h1>
+                                <Carousel images={images} autoScrollInterval={3000} />
                             </div>
                         </div>
                     </main>
