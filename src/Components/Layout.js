@@ -17,7 +17,7 @@ const Layout = () => {
                     <Link to="/menu">MENU</Link>
                     <Link to="/events">EVENTS</Link>
                     <Link to="/gallery">GALLERY</Link>
-                    <a href='https://www.facebook.com/profile.php?id=100075934792972' target="_blank">
+                    <a className="fb" href='https://www.facebook.com/profile.php?id=100075934792972' target="_blank">
                         <FontAwesomeIcon icon={faFacebook} size="lg" />
                     </a>
                 </nav>
