@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.09e797f8.css",
-    "main.js": "/static/js/main.24c39470.js",
+    "main.css": "/static/css/main.49a47789.css",
+    "main.js": "/static/js/main.d4195ad3.js",
     "static/js/453.42ffb5d8.chunk.js": "/static/js/453.42ffb5d8.chunk.js",
     "static/media/IMG_1775.jpeg": "/static/media/IMG_1775.743a941a7d1c75d7d7aa.jpeg",
     "static/media/IMG_1781.jpeg": "/static/media/IMG_1781.930776420d7aa662f40f.jpeg",
     "static/media/IMG_1519.jpg": "/static/media/IMG_1519.87529e412bbbc86ac001.jpg",
     "static/media/yfaah.jpeg": "/static/media/yfaah.56ad7ce0d360aa936427.jpeg",
+    "static/media/rachel_portrait.jpeg": "/static/media/rachel_portrait.a11c71b4410c42f61fd7.jpeg",
     "static/media/live-music.jpg": "/static/media/live-music.5773f273c5fd18cc943a.jpg",
     "static/media/logo-linear.jpg": "/static/media/logo-linear.83e6f7c12e63fd33fdeb.jpg",
     "index.html": "/index.html",
-    "main.09e797f8.css.map": "/static/css/main.09e797f8.css.map",
-    "main.24c39470.js.map": "/static/js/main.24c39470.js.map",
+    "main.49a47789.css.map": "/static/css/main.49a47789.css.map",
+    "main.d4195ad3.js.map": "/static/js/main.d4195ad3.js.map",
     "453.42ffb5d8.chunk.js.map": "/static/js/453.42ffb5d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09e797f8.css",
-    "static/js/main.24c39470.js"
+    "static/css/main.49a47789.css",
+    "static/js/main.d4195ad3.js"
   ]
 }
