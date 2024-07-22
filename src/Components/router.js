@@ -1,7 +1,6 @@
 import { createHashRouter } from "react-router-dom";
 import Layout from "./Layout";
 import LandingPage from "./LandingPage";
-import Temp from "./Temp";
 import Specials from "./Specials"
 import ErrorPage from "./ErrorPage";
 import Team from "./Team";
