@@ -7,7 +7,7 @@ import matt from "../photos/portraits/matt.jpg"
 import lexie from "../photos/portraits/lexie.jpg"
 import amy from "../photos/portraits/amy.jpg"
 import jason from "../photos/portraits/jason.jpg"
-import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Footer from './Footer';
 
@@ -18,9 +18,9 @@ const teamMembers = [
         description: '"If you see me, you know it\'s going to be fun time!"',
         image: rachelle,
         socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
+            twitter: 'https://www.facebook.com/profile.php?id=100075934792972',
+            email: 'https://www.facebook.com/profile.php?id=100075934792972',
+            linkedin: 'https://www.facebook.com/profile.php?id=100075934792972',
         },
     },
     {
@@ -29,9 +29,9 @@ const teamMembers = [
         description: '"Not only can I manage a bar, I\'m a fantastic realtor."',
         image: rachel,
         socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
+            twitter: 'https://www.facebook.com/profile.php?id=100075934792972',
+            email: 'https://www.facebook.com/profile.php?id=100075934792972',
+            linkedin: 'https://www.facebook.com/profile.php?id=100075934792972',
         },
     },
     {
@@ -40,9 +40,9 @@ const teamMembers = [
         description: '"Did someone say Wheeler Walker JR? I\'m in!"',
         image: erica,
         socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
+            twitter: 'https://www.facebook.com/profile.php?id=100075934792972',
+            email: 'https://www.facebook.com/profile.php?id=100075934792972',
+            linkedin: 'https://www.facebook.com/profile.php?id=100075934792972',
         },
     },
     {
@@ -51,9 +51,9 @@ const teamMembers = [
         description: '"Who\'s in for a game of darts?"',
         image: matt,
         socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
+            twitter: 'https://www.facebook.com/profile.php?id=100075934792972',
+            email: 'https://www.facebook.com/profile.php?id=100075934792972',
+            linkedin: 'https://www.facebook.com/profile.php?id=100075934792972',
         },
     },
     {
@@ -62,9 +62,9 @@ const teamMembers = [
         description: 'Cordinator of Austin\'s Forever 10.',
         image: amy,
         socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
+            twitter: 'https://www.facebook.com/profile.php?id=100075934792972',
+            email: 'https://www.facebook.com/profile.php?id=100075934792972',
+            linkedin: 'https://www.facebook.com/profile.php?id=100075934792972',
         },
     },
     {
@@ -73,9 +73,9 @@ const teamMembers = [
         description: '"Who needs sleds when ya have an air mattress!"',
         image: lexie,
         socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
+            twitter: 'https://www.facebook.com/profile.php?id=100075934792972',
+            email: 'https://www.facebook.com/profile.php?id=100075934792972',
+            linkedin: 'https://www.facebook.com/profile.php?id=100075934792972',
         },
     },
     {
@@ -84,9 +84,9 @@ const teamMembers = [
         description: '"The pup is actually in charge."',
         image: jason,
         socials: {
-            twitter: '#',
-            email: '#',
-            linkedin: '#',
+            twitter: 'https://www.facebook.com/profile.php?id=100075934792972',
+            email: 'https://www.facebook.com/profile.php?id=100075934792972',
+            linkedin: 'https://www.facebook.com/profile.php?id=100075934792972',
         },
     },
 ];
@@ -109,9 +109,9 @@ const Team = () => {
                                 </div>
                             </div>
                             <div className="social-icons">
-                                <a href={member.socials.twitter} className="social-icon twitter-icon"><FontAwesomeIcon icon={faTwitter} size='xl'/></a>
+                                <a href={member.socials.linkedin} className="social-icon linkedin-icon"><FontAwesomeIcon icon={faFacebook} size='xl'/></a>
                                 <a href={member.socials.email} className="social-icon email-icon"><FontAwesomeIcon icon={faInstagram} size="xl" /></a>
-                                <a href={member.socials.linkedin} className="social-icon linkedin-icon"><FontAwesomeIcon icon={faLinkedin} size='xl'/></a>
+                                <a href={member.socials.twitter} className="social-icon twitter-icon"><FontAwesomeIcon icon={faTwitter} size='xl'/></a>
                             </div>
                         </div>
                     ))}
