@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 800px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -26,7 +26,6 @@
 .main-image {
     width: 100%;
     height: auto;
-    max-height: 650px; /* Optional: Limit height */
     display: block;
     position: relative;
     z-index: 2;
@@ -49,10 +48,10 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(53, 45, 45, 0.5);
     color: white;
     border: none;
-    padding: 10px;
+    padding: 30px 10px;
     cursor: pointer;
     z-index: 3;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/Specials.css';
+import Footer from './Footer';
 
 const specials = [
     { day: 'MONDAY', description: 'FREE POOL FROM 6PM - 12AM' },
@@ -37,6 +38,7 @@ const Specials = () => {
                     </tbody>
                 </table>
             </div>
+            <Footer />
         </div>
     );
 };

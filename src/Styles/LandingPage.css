@@ -67,7 +67,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px 30px 30px;
 }
 
 @keyframes fadeIn {
@@ -145,7 +144,6 @@ body {
     border: 1px solid white;
     margin: 0px 35px 35px 35px;
     position: relative;
-    max-height: 600px;
 
 }
 
@@ -163,9 +161,8 @@ body {
 }
 
 .landing-image {
-    max-height: 450px;
+    max-height: 400px;
     flex: 1;
-    width: 50%;
     align-self: center;
     margin: 15px;
 }
@@ -181,12 +178,6 @@ body {
     padding: 15px 0px 15px 0px;
 }
 
-.footer {
-    font-family: "Segoe UI";
-    text-align: center;
-    padding: 1.2rem;
-    background-color: #000000;
-}
 
 /* Mobile and Tablet Friendly Styles */
 

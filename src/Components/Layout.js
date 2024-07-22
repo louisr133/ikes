@@ -6,6 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import logo_linear from "../photos/logo-linear.jpg";
 import "../Styles/Layout.css";
 import ScrollToTop from "./ScrollToTop";
+import Footer from "./Footer";
 
 const Layout = () => {
     const [isNavVisible, setIsNavVisible] = useState(false);
@@ -44,8 +45,8 @@ const Layout = () => {
                         <FontAwesomeIcon icon={faFacebook} size="lg" />
                     </a>
                 </nav>
-                <div 
-                    className="nav-toggle" 
+                <div
+                    className="nav-toggle"
                     onClick={toggleNav}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
@@ -55,10 +56,10 @@ const Layout = () => {
                         borderRadius: '5px'
                     }}
                 >
-                    <FontAwesomeIcon 
-                        icon={faBars} 
-                        className="bars-icon" 
-                        style={{ color: isHovered ? '#00aced' : '#f4fff1' }} 
+                    <FontAwesomeIcon
+                        icon={faBars}
+                        className="bars-icon"
+                        style={{ color: isHovered ? '#00aced' : '#f4fff1' }}
                     />
                 </div>
             </header>

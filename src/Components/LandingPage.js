@@ -8,6 +8,8 @@ import photo1 from "../photos/IMG_1519.jpg"
 import photo2 from "../photos/IMG_1775.jpeg"
 import photo3 from "../photos/IMG_1781.jpeg"
 import '../Styles/LandingPage.css';
+import Contact from './Contact';
+import Footer from './Footer';
 
 const LandingPage = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -50,8 +52,8 @@ const LandingPage = () => {
                                 <div className="feature">
                                     <img className="landing-image" src={livemusic} alt="Cheap Drinks" />
                                     <div className="feature-text">
-                                        <h2>Discover Ike's Pub</h2>
-                                        <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. DUIS VEL NULLA SED PURUS MAXIMUS BIBENDUM. CLASS APTENT TACITI SOCIOSQU AD LITORA TORQUENT PER CONUBIA NOSTRA, PER INCEPTOS HIMENAEOS. CURABITUR GRAVIDA, ENIM QUIS PORTA MATTIS, AUGUE ARCU TINCIDUNT AUGUE, VEL TEMPOR ENIM PURUS ID ELIT. ALIQUAM EU FACILISIS ORCI, VITAE SAGITTIS LIBERO.</p>
+                                        <h2>Welcome to Ike's Pub</h2>
+                                        <p> Your go-to spot for relaxed vibes, cold drinks, and good times. Whether you're here for a quick sip or a night out with friends, we've got you covered. Swing by and make yourself at home!</p>
                                     </div>
                                 </div>
                             </section>
@@ -59,11 +61,12 @@ const LandingPage = () => {
                                 <h1>JOIN THE FUN!</h1>
                                 <Carousel images={images} autoScrollInterval={3000} />
                             </div>
+                            <div>
+                                <Contact />
+                            </div>
                         </div>
                     </main>
-                    <footer className="footer">
-                        <p>&copy; 2024 RomanMathDev. All rights reserved.</p>
-                    </footer>
+                    <Footer />
                 </div>
             )}
         </div>

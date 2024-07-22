@@ -9,12 +9,13 @@ import amy from "../photos/portraits/amy.jpg"
 import jason from "../photos/portraits/jason.jpg"
 import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Footer from './Footer';
 
 const teamMembers = [
     {
         name: 'Rachelle',
         title: 'Bartender',
-        description: '\"If you see me, you know it\'s going to be fun time!\"',
+        description: '"If you see me, you know it\'s going to be fun time!"',
         image: rachelle,
         socials: {
             twitter: '#',
@@ -25,7 +26,7 @@ const teamMembers = [
     {
         name: 'Rachel',
         title: 'Manager',
-        description: '\"Not only can I manage a bar, I\'m a fantastic realtor.\"',
+        description: '"Not only can I manage a bar, I\'m a fantastic realtor."',
         image: rachel,
         socials: {
             twitter: '#',
@@ -36,7 +37,7 @@ const teamMembers = [
     {
         name: 'Erica',
         title: 'Bartender',
-        description: '\"Did someone say Wheeler Walker JR? I\'m in!\"',
+        description: '"Did someone say Wheeler Walker JR? I\'m in!"',
         image: erica,
         socials: {
             twitter: '#',
@@ -47,7 +48,7 @@ const teamMembers = [
     {
         name: 'Matt',
         title: 'Bartender',
-        description: '\"Who\'s in for a game of darts?\"',
+        description: '"Who\'s in for a game of darts?"',
         image: matt,
         socials: {
             twitter: '#',
@@ -69,7 +70,7 @@ const teamMembers = [
     {
         name: 'Lexie',
         title: 'Bartender',
-        description: '\"Who needs sleds when ya have an air mattress!\"',
+        description: '"Who needs sleds when ya have an air mattress!"',
         image: lexie,
         socials: {
             twitter: '#',
@@ -80,7 +81,7 @@ const teamMembers = [
     {
         name: 'Jason',
         title: 'Owner',
-        description: '\"The pup is actually in charge.\"',
+        description: '"The pup is actually in charge."',
         image: jason,
         socials: {
             twitter: '#',
@@ -116,6 +117,7 @@ const Team = () => {
                     ))}
                 </div>
             </div>
+            <Footer />
         </div>
 
     );
