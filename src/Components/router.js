@@ -5,6 +5,7 @@ import Temp from "./Temp";
 import Specials from "./Specials"
 import ErrorPage from "./ErrorPage";
 import Team from "./Team";
+import UnderConstruction from "./UnderConstruction";
 
 const router = createHashRouter([
     {
@@ -14,8 +15,8 @@ const router = createHashRouter([
       children: [
         { path:"", element:<LandingPage /> },
         { path:"specials", element: <Specials />},
-        { path:"gallery", element: <Temp />},
-        { path:"events", element: <Temp />},
+        { path:"gallery", element: <UnderConstruction/>},
+        { path:"events", element: <UnderConstruction/>},
         { path:"about", element: <Team />}
       ]
     },
