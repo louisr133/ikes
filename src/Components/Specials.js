@@ -4,12 +4,12 @@ import Footer from './Footer';
 
 const specials = [
     { day: 'MONDAY', description: 'FREE POOL FROM 6PM - 12AM' },
-    { day: 'TUESDAY', description: 'TAQUILLA TUESDAY, $1 OFF ALL DAY' },
-    { day: 'WEDNESDAY', description: 'THE QUEEN OF HEARTS AND WHISKEY WEDNESDAY ($1 OFF WELL WHISKEY)' },
+    { day: 'TUESDAY', description: 'TEA-TUESDAY STARTING @ 8PM: ALL TEA SHOTS $4.50' },
+    { day: 'WEDNESDAY', description: 'THE QUEEN OF HEARTS DRAWING @ 8:30PM AND WHISKEY WEDNESDAY ($1 OFF WELL WHISKEY)' },
     { day: 'THURSDAY', description: '$2 OFF DOMESTIC BEERS AND TEXAS HOLD \'EM' },
     { day: 'FRIDAY', description: 'GIGI SWEET SOUNDS (KARAOKE) @ 8PM' },
-    { day: 'SATURDAY', description: '$4.50 ANY FLAVOUR TEA SHOTS' },
-    { day: 'SUNDAY', description: 'SUNDAY FUNDAY (NO SPECIALS)' },
+    { day: 'SATURDAY', description: '$1.00 DEEP EDDIES VODKA' },
+    { day: 'SUNDAY', description: 'SUNDAY FUNDAY! FREE DARTS STARTS @ 8PM' },
 ];
 
 const Specials = () => {
