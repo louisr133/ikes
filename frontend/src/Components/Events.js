@@ -8,7 +8,7 @@ const Events = () => {
 
   const fetchEvents = async () => {
     try {
-      const response = await fetch('https://afternoon-cliffs-96506-e22d607350ed.herokuapp.com//fetch-events');
+      const response = await fetch('https://ikeseventserver-546172d29f62.herokuapp.com/fetch-events');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -34,7 +34,7 @@ const Events = () => {
   return (
     <div className='pushdown-other'>
       <div className="events-container">
-        <h1>Facebook Events</h1>
+        <h1>Events</h1>
         {loading ? (
           <div className="loading">
             <div className="spinner"></div>
