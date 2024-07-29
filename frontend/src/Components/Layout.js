@@ -39,7 +39,7 @@ const Layout = () => {
                     <Link to="/" onClick={handleNavClick}>HOME</Link>
                     <Link to="/specials" onClick={handleNavClick}>SPECIALS</Link>
                     <Link to="/events" onClick={handleNavClick}>EVENTS</Link>
-                    <Link to="/gallery" onClick={handleNavClick}>GALLERY</Link>
+                    {/* <Link to="/gallery" onClick={handleNavClick}>GALLERY</Link> */}
                     <Link to="/about" onClick={handleNavClick}>ABOUT</Link>
                     <a className="fb" onClick={handleNavClick} href='https://www.facebook.com/profile.php?id=100075934792972' target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} size="lg" />

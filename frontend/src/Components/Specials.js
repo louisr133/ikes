@@ -8,7 +8,7 @@ const specials = [
     { day: 'WEDNESDAY', description: 'THE QUEEN OF HEARTS DRAWING @ 8:30PM AND WHISKEY WEDNESDAY ($1 OFF WELL WHISKEY)' },
     { day: 'THURSDAY', description: '$2 OFF DOMESTIC BEERS AND TEXAS HOLD \'EM' },
     { day: 'FRIDAY', description: 'GIGI SWEET SOUNDS (KARAOKE) @ 8PM' },
-    { day: 'SATURDAY', description: '$1.00 DEEP EDDIES VODKA' },
+    { day: 'SATURDAY', description: '$1.00 OFF DEEP EDDY VODKA' },
     { day: 'SUNDAY', description: 'SUNDAY FUNDAY! FREE DARTS STARTS @ 8PM' },
 ];
 

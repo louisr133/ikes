@@ -15,7 +15,7 @@ const router = createHashRouter([
       children: [
         { path:"", element:<LandingPage /> },
         { path:"specials", element: <Specials />},
-        { path:"gallery", element: <UnderConstruction/>},
+        // { path:"gallery", element: <UnderConstruction/>},
         { path:"events", element: <Events />},
         { path:"about", element: <Team />}
       ]
